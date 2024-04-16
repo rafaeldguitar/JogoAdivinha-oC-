@@ -3,8 +3,7 @@ int numeroSecreto = numeroAleatorio.Next(1, 100); //gera entre os numeros anotad
 
 Console.WriteLine("benvindo ao Jogo De Advinhação Do Número secreto!!");
 
-do
-{
+do {
     
     Console.Write("\nEscolha um número de 1 e 100: ");
     int numeroEscolido = int.Parse(Console.ReadLine()); //converte a resposta em int
